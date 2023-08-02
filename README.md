@@ -1,60 +1,82 @@
-#DWOS GPT Bot
-#Introduction
+# DWOS GPT Bot
 
-DWOS GPT Bot is an advanced AI chatbot designed to provide real-time answers, generate images, and perform voice generation tasks. The bot utilizes various APIs, including OpenAI ChatGPT API, Bard API, DeepAI API, MonsterAPI, Playht API, and Deepgram API, to deliver accurate and efficient responses to users' queries and perform multimedia tasks.
-Features
+Welcome to the DWOS GPT Bot repository! This is a bot built using the OpenAI ChatGPT API and Bard API for real-time interaction and accurate responses. Additionally, the bot utilizes the DeepAI API and MonsterAPI for image generation. It employs PlayHT for voice generation and Deepgram to convert voice to text, which is then processed by the GPT API to generate responses, finally converted back to voice using PlayHT and sent to the user.
 
-    Real-Time AI Chat: The bot employs the OpenAI ChatGPT API and Bard API to engage in real-time conversations with users, providing accurate and natural language responses.
+## Features
 
-    Image Generation: Leveraging the power of the DeepAI API and MonsterAPI, the bot can generate images based on user input or specific queries.
+1. **Real-Time Interaction:** The bot uses the OpenAI ChatGPT API and Bard API to provide real-time interaction with users.
 
-    Voice Generation: The bot utilizes the Playht API to synthesize human-like voices for its responses, enhancing the user experience.
+2. **Image Generation:** With the integration of the DeepAI API, the bot can generate images using advanced artificial intelligence capabilities.
 
-    Voice-to-Text Conversion: The bot incorporates the Deepgram API to convert voice messages from users into text, allowing it to analyze and respond to voice queries effectively.
+3. **High-Quality Images:** Using MonsterAPI, the bot can produce high-quality images, even up to 4K resolution.
 
-    User Registration and Premium Access: The bot requires users to register with the owner to access its services. The owner has the ability to grant premium access to certain users or revoke access as needed.
+4. **Voice Generation:** PlayHT is employed to generate voice responses for a more engaging user experience.
 
-    Abuse Protection: To maintain a healthy and safe environment, the bot includes a protection feature that can kick or ban users who engage in abusive behavior within group chats.
+5. **Voice-to-Text Conversion:** The bot utilizes Deepgram to convert voice inputs into text, which is then processed by the GPT API to generate meaningful responses.
 
-#Getting Started
+6. **User Protection:** The bot includes a protection feature that can kick any user from a group if abusive behavior is detected.
 
-To deploy and use DWOS GPT Bot, follow these steps:
+7. **Owner Privileges:** The bot requires registration by an owner, and the owner has the ability to grant premium access to users or revoke access as needed.
 
-    Clone the repository from GitHub to your local machine.
+## Bot Commands
 
-    Obtain API keys for the following services and configure them in the code:
-        OpenAI ChatGPT API
-        Bard API
-        DeepAI API
-        MonsterAPI
-        Playht API
-        Deepgram API
+1. **start:** Use this command to start the bot.
 
-    Set up the required dependencies by running pip install -r requirements.txt.
+2. **gpt:** Interact with the bot using this command.
 
-    Register the bot with the owner and obtain the necessary authentication tokens to enable premium access for users.
+3. **img:** Generate images using advanced AI capabilities from DeepAI.
 
-    Configure the abuse protection feature as per your requirements.
+4. **image:** Generate high-quality pictures with MonsterAPI, supporting up to 4K resolution.
 
-    Deploy the bot on your preferred platform or server.
+5. **ingpt:** Get information about your account.
 
-#Usage
+6. **add:** Authorize a user to remove usage limits.
 
-    Chat with the Bot: Users can send messages to the bot, and it will respond using the OpenAI ChatGPT API and Bard API, ensuring engaging and informative conversations.
+7. **revoke:** Revoke access from a user and restore usage limits.
 
-    Generate Images: Users can request the bot to generate images based on specific inputs or queries using the DeepAI API and MonsterAPI.
+8. **register:** Register groups for bot usage.
 
-    Text-to-Voice Conversion: The bot can convert user text queries into voice responses using the Playht API, making interactions more interactive and human-like.
+9. **deregister:** Remove groups from bot usage.
 
-    Voice-to-Text Conversion: Users can send voice messages to the bot, which will be converted to text using the Deepgram API for analysis and response.
+10. **nmute:** Unmute a user from the bot.
 
-    Premium Access: Users registered by the owner will have access to premium features, while unregistered users will have limited functionality.
+## Setup Instructions
 
-    Abuse Protection: The bot will actively monitor group chats for abusive behavior and take appropriate actions, such as kicking or banning the offending users.
+To deploy this bot for your own usage, follow these steps:
 
-#Contributing
+1. Obtain API Keys:
+   - OpenAI API: Get the API key for the ChatGPT API from OpenAI.
+   - Bard API: Obtain the Bard API key for real-time interaction.
+   - DeepAI API: Get the API key for image generation.
+   - MonsterAPI: Obtain the API key for high-quality picture generation.
+   - PlayHT: Acquire the API key for voice generation.
+   - Deepgram: Get the API key for converting voice to text.
 
-If you would like to contribute to DWOS GPT Bot, feel free to fork the repository and submit pull requests. Before contributing, make sure to review the guidelines and coding standards provided in the repository.
-License
+2. Clone the Repository:
+   ```
+   git clone https://github.com/DWE-CLOUD/DwosGptBot.git
+   cd DwosGptBot
+   ```
 
-DWOS GPT Bot is licensed under the GNU License.
+3. Set Up API Keys:
+   - Add the obtained API keys to the appropriate sections in the code.
+
+4. Install Dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+5. Run the Bot:
+   ```
+   python main.py
+   ```
+
+Make sure to follow the usage guidelines and terms of service for each API you are using.
+
+Feel free to contribute to this repository and improve the functionality of the DWOS GPT Bot. If you encounter any issues or have suggestions for improvements, please create an issue or pull request on GitHub.
+
+Thank you for using DWOS GPT Bot! Happy botting! 😄🤖
+
+Support : t.me/dwoscloud | t.me/RAGE_NARUTOO | t.me/Evokkers | t.me/Bromalone | t.me/whisele | t.me/girishfr | <3
+
+Donation Accepted at : t.me/girishfr
