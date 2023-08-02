@@ -30,9 +30,9 @@ Welcome to the DWOS GPT Bot repository! This is a bot built using the OpenAI Cha
 
 5. **ingpt:** Get information about your account.
 
-6. **add:** Authorize a user to remove usage limits.
+6. **add:** Authorize a userid to remove usage limits.
 
-7. **revoke:** Revoke access from a user and restore usage limits.
+7. **revoke:** Revoke access from a userid and restore usage limits.
 
 8. **register:** Register groups for bot usage.
 
