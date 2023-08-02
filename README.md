@@ -77,6 +77,6 @@ Feel free to contribute to this repository and improve the functionality of the 
 
 Thank you for using DWOS GPT Bot! Happy botting! 😄🤖
 
-Support : t.me/dwoscloud | t.me/RAGE_NARUTOO | t.me/Evokkers | t.me/Bromalone | t.me/whisele | t.me/girishfr | <3
+Support : t.me/dwoscloud | t.me/RAGE_NARUTOO | t.me/Evokkers | t.me/Bromalone | t.me/whisele | t.me/Cubiqqqqq | t.me/girishfr | <3
 
 Donation Accepted at : t.me/girishfr
