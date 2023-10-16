@@ -27,7 +27,7 @@ l33 = []
 
 def generate_image_from_text(text):
   response = requests.post(
-    'https://api.deepai.org/api/text2img',
+    'https://api.deepai.org/api/textimg',
     data={
       'text': text,
     },
